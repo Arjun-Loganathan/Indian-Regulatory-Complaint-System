@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SmartComplaint</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="comdetails">Complaint Details</string>
+    <string name="comtype">Complaint Type</string>
+    <string name="lat">Latitude</string>
+    <string name="longe">Longtitude</string>
+    <string name="area">Area of Complaint</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="mobile">Mobile</string>
+    <string name="add">Address</string>
+    <string name="email">Email Id</string>
+    <string name="uname">People Name</string>
+
+</resources>

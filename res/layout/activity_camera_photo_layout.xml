@@ -1,0 +1,184 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".CameraPhotoCapture" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/message"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Complaint Form"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textcomtype"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/comtype" />
+
+            <EditText
+                android:id="@+id/edittype"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="#FFFFFF" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/comdtxt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/comdetails" />
+
+            <EditText
+                android:id="@+id/editdet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Click on button to capture image"
+                android:textSize="14dp" />
+
+                        <Button
+                            android:id="@+id/btn_photo"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/upload" />
+
+            
+            <TextView
+                android:id="@+id/imageDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/message" />
+
+            <ImageView
+                android:id="@+id/showImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/lattxt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lat" />
+
+            <EditText
+                android:id="@+id/editlat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/longtxt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/longe" />
+
+            <EditText
+                android:id="@+id/editlong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/areatxt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/area" />
+
+            <EditText
+                android:id="@+id/editarea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/usertxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User Details"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/usernametxt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/uname" />
+
+            <EditText
+                android:id="@+id/edituname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/useremail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email" />
+
+            <EditText
+                android:id="@+id/edituemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/addtxt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add" />
+
+            <EditText
+                android:id="@+id/editadd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/mobtxt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mobile" />
+			<TextView
+                android:id="@+id/edittxt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+
+            <Button
+                android:id="@+id/subbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
